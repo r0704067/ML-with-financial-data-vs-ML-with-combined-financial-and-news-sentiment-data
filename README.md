@@ -48,3 +48,29 @@ Open a new Terminal Window in VS Code and install the IPython Kernel:
 py -m pip install ipykernel
 
 If you get a warning about the Python Scripts folder not being included in the PATH environment variable, add it using the System|Advanced System Configuration.
+
+### 6. Using venv in VSCode
+Python’s preferred way to use virtual environments, is via ‘venv’. It allows you to manage separate package installations for different projects. It essentially allows you to create a “virtual” isolated Python installation and install packages into that virtual installation. 
+
+When you switch projects, you can simply create a new virtual environment and not have to worry about breaking the packages installed in the other environments. It is always recommended to use a virtual environment while developing Python applications.
+
+To create a virtual environment, open up a terminal window in VSCode (Menu > Terminal > New Terminal). It will open up in your folder. Execute the command 
+
+py -m venv ML_env
+
+VSCode will detect that you’ve created a new virtual environment, and will ask you if you want to select it for the workspace folder. Hit Yes. 
+
+![image](https://github.com/r0704067/ML-with-financial-data-vs-ML-with-combined-financial-and-news-sentiment-data/assets/57663262/3bc30d23-9e21-4d12-8715-d4136cb0b5da)
+
+Notice in your directory, that a new folder is created ML_env.
+
+### 6. Activating venv in VSCode
+Next, we need to activate this virtual container as our Python environment to use. 
+
+### 6.1 Activating the environment in the IDE
+This pretty straightforward. Go to the top right corner, where you can select your interpreter
+ 
+ ![image](https://github.com/r0704067/ML-with-financial-data-vs-ML-with-combined-financial-and-news-sentiment-data/assets/57663262/9b8381a9-98fd-4c59-9837-ab344b1f2431)
+
+and select the ML_env
+
