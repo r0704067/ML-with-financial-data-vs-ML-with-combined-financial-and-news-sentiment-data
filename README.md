@@ -22,3 +22,29 @@ py -3 --version
 You should see something like
 
 Python 3.10.7
+
+### 2. Download the repository
+First create a folder where you can save all the files from this repository. In this folder you can git clone the repository or unzip the downloaded repository.
+
+### 3. Open the Project Folder
+In VS Code, go to File and choose Open Folder:
+
+### 4. Select a Python Interpreter
+Python is an interpreted language, and in order to run Python code and get Python IntelliSense, you must tell VS Code which interpreter to use.
+
+From within VS Code, select the Python 3 interpreter by opening the Command Palette (Ctrl+Shift+P), start typing the Python: Select Interpreter command to search:
+
+![image](https://github.com/r0704067/ML-with-financial-data-vs-ML-with-combined-financial-and-news-sentiment-data/assets/57663262/a0954927-c74b-47d0-b21b-d2f7e7384fb1)
+
+Then select the command and choose the Python environment you've just installed:
+
+![image](https://github.com/r0704067/ML-with-financial-data-vs-ML-with-combined-financial-and-news-sentiment-data/assets/57663262/ff01cfda-31d4-4415-8aa1-275382f3fc8f)
+
+### 5. Installing the IPython Kernel
+The IPython Kernel is the Python execution backend for Jupyter. This one needs to be installed before you can execute Jupyter Notebooks code blocks in VS Code.
+
+Open a new Terminal Window in VS Code and install the IPython Kernel:
+
+py -m pip install ipykernel
+
+If you get a warning about the Python Scripts folder not being included in the PATH environment variable, add it using the System|Advanced System Configuration.
