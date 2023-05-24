@@ -25,9 +25,14 @@ Python 3.10.7
 
 ### 2. Download the repository
 First create a folder where you can save all the files from this repository. In this folder you can git clone the repository or unzip the downloaded repository.
+You also will need to add a folder named Financial_News and unzip the datasets you retrieve from kaggle https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests
+
+![image](https://github.com/r0704067/ML-with-financial-data-vs-ML-with-combined-financial-and-news-sentiment-data/assets/57663262/083a5437-e579-4ed5-9d54-44effefc21c6)
 
 ### 3. Open the Project Folder
 In VS Code, go to File and choose Open Folder:
+
+Open the project folder
 
 ### 4. Select a Python Interpreter
 Python is an interpreted language, and in order to run Python code and get Python IntelliSense, you must tell VS Code which interpreter to use.
